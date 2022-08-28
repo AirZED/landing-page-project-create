@@ -1,0 +1,32 @@
+.section1 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.section1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.section1 .text {
+    color: white;
+    font-size: 1.4em;
+}
+
+.section1 .cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin: 4em 0;
+
+}
+
+.cont .images-section {
+    display: flex;
+    width: fit-content;
+    gap: .5em;
+}

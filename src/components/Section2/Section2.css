@@ -1,0 +1,14 @@
+.section-2{
+    min-height: 70vh;
+    background-color: #64c8e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 p{
+    text-align: center;
+    margin: 2em 0;
+    font-size: 1.2em;
+}
