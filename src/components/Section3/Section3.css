@@ -6,6 +6,8 @@
     padding-top: 2em;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
+
 }
 
 
@@ -15,10 +17,18 @@
     text-align: center;
 }
 
+.section-3 p {
+    font-size: 1.2em;
+}
+
 
 .section-3 .cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
@@ -29,4 +39,16 @@
     border-radius: 5px;
     gap: 1em;
     background-color: darkslategray;
+}
+
+@media(max-width:1200px) {
+    .section3-card {
+        height: 22em;
+    }
+
+    .section-3 .cards {
+        justify-content: center;
+
+    }
+
 }

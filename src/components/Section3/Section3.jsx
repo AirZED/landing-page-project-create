@@ -12,10 +12,10 @@ const Section3 = (props) => {
         tenetur veniam. Blanditiis unde illo corrupti.
       </p>
       <div className="cards">
-        <Section3Card />
-        <Section3Card />
-        <Section3Card />
-        <Section3Card />
+        <Section3Card></Section3Card>
+        <Section3Card></Section3Card>
+        <Section3Card></Section3Card>
+        <Section3Card></Section3Card>
       </div>
     </div>
   );
