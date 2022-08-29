@@ -1,7 +1,6 @@
 .card-cont {
     height: 30em;
     width: 25em;
-    outline: 2px solid blue;
     margin: 1em;
     position: relative;
     display: flex;
@@ -9,6 +8,25 @@
     align-items: center;
     text-align: center;
     background-color: #fff;
+    padding: 1em;
+}
+
+.card-cont .description{
+    background-color: #ccc;
+    width: 100%;
+}
+
+
+.card-cont h3 {
+    font-size: 1.5em;
+}
+
+.card-cont h2 {
+    font-size: 4em;
+}
+
+.card-cont p{
+    font-size: 1.1em;
 }
 
 .card-cont button {

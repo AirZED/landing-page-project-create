@@ -12,7 +12,9 @@ const Section4Card = (props) => {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nam ut,
         sequi cupiditate libero expedita!
       </p>
-      <Button bgcolor="#64c8e5" color='#fff'>SELECT PLAN</Button>
+      <Button bgcolor="#64c8e5" color="#fff">
+        SELECT PLAN
+      </Button>
     </div>
   );
 };
