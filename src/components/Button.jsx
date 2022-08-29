@@ -7,7 +7,7 @@ const Button = (props) => {
       }}
       className="button"
     >
-      {props.title}
+      {props.children}
     </button>
   );
 };

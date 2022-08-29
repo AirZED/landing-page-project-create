@@ -1,0 +1,32 @@
+.section-3 {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-3 h1,
+.section-3 p {
+    color: white;
+    text-align: center;
+}
+
+
+.section-3 .cards {
+    display: flex;
+    gap: 1em;
+
+}
+
+
+.section3-card {
+    height: 32em;
+    width: 18em;
+    border-radius: 5px;
+    gap: 1em;
+    background-color: darkslategray;
+}

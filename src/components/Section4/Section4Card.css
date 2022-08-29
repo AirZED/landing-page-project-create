@@ -1,0 +1,17 @@
+
+
+.card-cont{
+    height: 30em;
+    width: 25em;
+    outline: 2px solid blue;
+    margin: 1em;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.card-cont button{
+    position: absolute;
+    bottom: -1em;
+}
