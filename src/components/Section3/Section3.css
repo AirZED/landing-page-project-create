@@ -36,11 +36,11 @@
     height: 32em;
     width: 20em;
     border-radius: 5px;
-    gap: 1em;
     background-color: darkslategray;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1em;
 
 }
 
@@ -52,6 +52,7 @@
 @media(max-width:1200px) {
     .section3-card {
         height: 22em;
+        width: fit-content;
     }
 
     .section-3 .cards {
