@@ -7,7 +7,7 @@ import image2 from "../../assets/image 2.jpg";
 const Section1 = (props) => {
   return (
     <div className="section1">
-      <h1>WELCOME TO LEARNING JAVASCRIPT</h1>
+      <h1>WELCOME TO CYCLOPS</h1>
       <div className="cont">
         <div className="text">
           <p>

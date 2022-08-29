@@ -32,13 +32,21 @@
 
 }
 
-
 .section3-card {
     height: 32em;
-    width: 18em;
+    width: 20em;
     border-radius: 5px;
     gap: 1em;
     background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-3 .cards .section3-card img {
+    height: 100%;
+    border-radius: 40px;
 }
 
 @media(max-width:1200px) {
