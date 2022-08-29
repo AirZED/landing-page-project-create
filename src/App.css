@@ -25,3 +25,20 @@ button {
     justify-content: center;
     border: none;
 }
+
+/* 
+button:hover{
+    background-color: ;
+} */
+
+@media(max-width: 760px) {
+
+    .App>* {
+        padding: 0 2em;
+    }
+
+    button {
+        height: 1.5em;
+        font-size: 1.5em;
+    }
+}

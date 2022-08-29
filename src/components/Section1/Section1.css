@@ -19,7 +19,8 @@
 
 .section1 .cont {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
     gap: 2em;
     margin: 4em 0;
 
@@ -29,4 +30,25 @@
     display: flex;
     width: fit-content;
     gap: .5em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media(max-width:1200px) {
+    .section1 .cont {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:670px) {
+    .section1 h1 {
+        font-size: 2em;
+    }
+
+    .section1 .text {
+        font-size: 1.1em;
+        text-align: center;
+    }
 }

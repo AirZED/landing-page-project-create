@@ -6,8 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .card>img {
@@ -28,4 +26,29 @@
     justify-content: center;
     flex-direction: column;
     color: white;
+}
+
+  .card>div h3 {
+      margin: 0;
+  }
+
+  .card>div h2 {
+      margin: 0;
+  }
+
+@media (max-width: 760px){
+    .card {
+       height: 13em;
+       width: 12em;
+    }
+
+    .card>div h3{
+        font-size: 1em;
+        margin: 0;
+    }
+
+     .card>div h2{
+        font-size: 1.5em;
+         margin: 0;
+     }
 }

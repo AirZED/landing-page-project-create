@@ -1,14 +1,26 @@
-.section-2{
+.section-2 {
     min-height: 70vh;
     background-color: #64c8e5;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2em;
 }
 
-.section-2 p{
+.section-2 p {
     text-align: center;
     margin: 2em 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
+}
+
+@media(max-width: 760px) {
+    .section-2 p {
+        text-align: center;
+        margin: 1.3em 0;
+        font-size: 1.1em;
+        height: 18em;
+        overflow-y: hidden;
+
+    }
 }

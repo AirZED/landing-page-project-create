@@ -1,7 +1,7 @@
 .card-cont {
     height: 30em;
     width: 25em;
-    margin: 1em;
+    margin: 2em;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     padding: 1em;
 }
 
-.card-cont .description{
+.card-cont .description {
     background-color: #ccc;
     width: 100%;
 }
@@ -25,11 +25,32 @@
     font-size: 4em;
 }
 
-.card-cont p{
+.card-cont p {
     font-size: 1.1em;
 }
 
 .card-cont button {
     position: absolute;
     bottom: -1em;
+}
+
+@media (max-width : 1200px) {
+   .card-cont {
+       height: auto;
+       width: 22em;
+   }
+}
+
+@media (max-width : 760px) {
+
+    .card-cont h3 {
+        margin: .5em;
+    }
+
+    .card-cont h2 {
+        margin: .5em;
+    }
+    .card-cont button {
+        position: static;
+    }
 }

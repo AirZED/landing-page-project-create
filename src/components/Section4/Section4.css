@@ -9,12 +9,24 @@
 .section-4 h4 {
     font-size: 2em;
     text-align: center;
-    margin: 2em 0 3em 0;
+    margin: 2em 0 2em 0;
     color: #fff;
 
 }
-
+.section4-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .section-4>div {
     display: flex;
+    flex-wrap: wrap;
 
+}
+
+@media (max-width : 760px){
+    .section-4>div {
+        display: flex;
+        flex-direction: column;
+    }
 }
