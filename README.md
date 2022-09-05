@@ -3,4 +3,4 @@
 Built this simple landing page with ReactJs and CSS
 
 # LINK TO LIVE SITE
-https://vercel.com/airzed/landing-page-project-create
+https://landing-page-project-create-6wuskhm23-airzed.vercel.app/
