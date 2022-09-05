@@ -1,5 +1,5 @@
 import "./Section1.css";
-import Section1Card from "./Section1Card";
+import Section1Card from "../Cards/Section1Card";
 
 import image1 from "../../assets/image 1.jpg";
 import image2 from "../../assets/image 2.jpg";

@@ -1,10 +1,9 @@
 import "./Section3.css";
-import Section3Card from "./Section3Card";
+import Section3Card from "../Cards/Section3Card";
 import scshot1 from "../../assets/1.png";
 import scshot2 from "../../assets/2.png";
 import scshot3 from "../../assets/3.png";
 import scshot4 from "../../assets/4.png";
-
 
 const Section3 = (props) => {
   return (

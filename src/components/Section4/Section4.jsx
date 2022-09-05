@@ -1,5 +1,5 @@
-import Section4Card from "./Section4Card";
-import './Section4.css'
+import Section4Card from "../Cards/Section4Card";
+import "./Section4.css";
 
 const Section4 = (props) => {
   return (
